@@ -7,7 +7,8 @@ export default function Player() {
 
   const nameHandler = () => {
     setPlayerName(player.current.value);
-  }
+    player.current.value = '';
+  };
   return (
     <section id="player">
       <h2>Welcome  {playerName ? playerName : 'unknown entity'} </h2>
