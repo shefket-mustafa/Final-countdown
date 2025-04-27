@@ -1,3 +1,4 @@
+import './index.css'
 import Player from "./components/Player"
 
 
